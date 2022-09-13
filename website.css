@@ -1,0 +1,177 @@
+
+.navbar{
+    background-color:rgb(41, 141, 141);
+    color: white;
+}
+
+.offcanvas{
+    background-color:rgb(41, 141, 141) ;
+}
+
+.container a{
+    color:brown;
+    font-size: 900;
+}
+.container h2{
+    color: white;
+}
+.ul li a{
+    text-decoration: none;
+}
+.offcanvas{
+    width: 50px;
+}
+   
+.form{
+    display: FLEX;
+}
+.FOMU{
+    margin-top: 15px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+   
+    margin-right: 0CM;
+   
+   background-color:rgb(168, 28, 28);
+    flex-direction: column;
+
+    
+    
+
+    
+}
+
+
+.nav-ul{
+    display: flex;
+    justify-content:space-between;
+    justify-items: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.imagee{
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .container-fluidd{
+    background-color:rgb(238,232,232) ;
+    transition: transform 3s ease-in-out;
+
+}
+.dev{
+    background-image: url(./landing\ best.webp);
+
+}
+.sign-up{
+    background-image: url(./INTEGRATION\ LANDING\ PAGE.jpg);
+}
+.security{
+    background-color:#f5f5f5;
+}
+.navv{
+    background-color: blueviolet;
+}
+.list-group-item{
+    background-color:rgb(41, 141, 141)
+}
+.btn{
+    background-color: rgb(163, 76, 76);
+    border-radius: 3px;
+    color: white;
+}
+.home{
+    padding: 0;
+    margin: 0;
+    background-color:whitesmoke;
+    background-image: url(./landing\ master.jpg);
+    background-position: center;
+    
+}
+.card{
+    background-color:rgb(238,232,232) ;
+    transition: transform 3s ease-in-out;
+
+}
+.card:hover{
+    background-color: hsl(345, 40%, 98%);
+      }
+      
+
+.avatar{
+    height: 50px;
+}
+    
+.container{
+    margin-top: 20px;
+    width: 10cm;
+    
+}
+
+.contain h1 span{
+    color: brown;
+}
+.table-striped{
+    background:whitesmoke;
+}
+.center{
+    margin-top: 50px;
+    color:white;
+    margin-left: 20px;
+}  
+.content{
+    background-color: brown;
+
+}
+.contain::after{
+    display: inline-block;
+    top:40%;
+    left:30%;
+    position: relative;
+    color: white;
+    transform: translate(-50-50);
+    display: none;
+    z-index: 1;
+}  
+
+.head{
+    height: 2cm;
+}
+
+.centre{
+    display: flex;
+    margin-top:30px;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link-active{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.body{
+    background-color: grey;}
+.image{
+    display:flex;
+}
+    
+.footer{
+height:2cm;
+}
+.footer p{
+    margin-left: 15px;
+
+}

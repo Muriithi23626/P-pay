@@ -87,8 +87,9 @@
 }
 .btn{
     background-color: rgb(163, 76, 76);
-    border-radius: 3px;
+    border-radius: 20px;
     color: white;
+   
 }
 .home{
     padding: 0;

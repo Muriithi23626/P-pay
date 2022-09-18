@@ -22,16 +22,6 @@
     width: 50px;
 }
  
-.sub-menu-2 {
-     display: none;
-    position: absolute;
-}
-
-
-.services:hover .sub-menu-2{
-    display: block;
-    position: absolute;
-   }
 
 
  .learn{

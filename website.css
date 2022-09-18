@@ -28,7 +28,7 @@
 }
 
 
-.services:hover.sub-menu-2{
+.services:hover .sub-menu-2{
     display: block;
     position: absolute;
    }

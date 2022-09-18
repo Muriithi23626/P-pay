@@ -25,7 +25,7 @@
 
 
 
- .leead{
+ .learn{
         animation: blink-animation 1s steps(5, start) infinite;
         -webkit-animation: blink-animation 1s steps(5, start) infinite;
       }

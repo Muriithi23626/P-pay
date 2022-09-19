@@ -30,51 +30,12 @@
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              services
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">OUR SERVICES</a></li>
-              <li><a class="dropdown-item" href="#">OUR PARTNERS</a></li>
-              <li><a class="dropdown-item" href="sign up.html">sign-up</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="sign up.html" class="">sign-up</a>
-          
-          </li>
-        </ul>
-      </div>
+	</div>
     </div>
   </nav>
-
-</div>
 </section>
 
 
-<div class="container">
-  <div class="carousel-3d carousel-3d-controls">
-    <div class="carousel-3d-inner">
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(48).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(49).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(50).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(51).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(52).webp" alt="Slide"></div>
-      <div class="carousel-3d-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(53).webp" alt="Slide"></div>
-    </div>
-    <div class="carousel-3d-controls">
-      <a class="prev-btn waves-effect waves-light"><i class="fas fa-chevron-left"></i></a>
-      <a class="next-btn waves-effect waves-light"><i class="fas fa-chevron-right"></i></a>
-    </div>
-  </div>
-</div>
 
 
 
@@ -82,33 +43,22 @@
 <section class=" bg-dark"> 
   <div class="container">
     <div class="row">
-      <div class="col">
-        <form class="px-4 py-3">
-          <div class="mb-3">
-            <label for="exampleDropdownFormEmail1" class="form-label">USERNAME ID</label>
-            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="KM23626@gmail.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-          </div>
-          <div class="mb-3">
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
-              <label class="form-check-label" for="dropdownCheck">
-                Remember me
-              </label>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-success">Sign in</button>
-          <a class="dropdown-item text-light" href="#">Unable to login?Contact support</a>
-          <a class="dropdown-item text-light" href="#">Forgot password?</a>
-        </form>
-      
-      </div>
-    </div>
-  </div>
-
+<div class="card">
+<div class="main">
+<h2>Javascript Login Form Validation</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+</div>
+ </div>
+</div>
+</div>
+</section>
 <!-----start of footer section-->
 
 <section class="" id =nav>
@@ -161,3 +111,12 @@
 </section>
 
 <!------End of footer section-->
+	
+	
+	<!---javascript section------------>
+	<script src="js/login.js"></script>
+	<!----end of javascript section-------------->
+	
+	
+	</body>
+	</html>

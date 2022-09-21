@@ -9,9 +9,10 @@
 }
 
 
-.demo{
-  width:1920px;
-    height:1080px;}
+.bar{
+     background-color:rgb(41, 141, 141);
+    color: white;
+    width:35cm;}
 
 
 .container a{
@@ -42,7 +43,10 @@
           visibility: hidden;
         }
       }
+.row{
+width:35cm;
 
+}
 
 .form{
     display: FLEX;

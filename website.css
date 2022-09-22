@@ -115,6 +115,11 @@
     background-position: center;
     
 }
+
+.demo{
+ padding-left: 15cm;
+
+}
 .card{
     background-color:rgb(238,232,232) ;
     transition: transform 3s ease-in-out;

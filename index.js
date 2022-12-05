@@ -1,27 +1,38 @@
 
 
-var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "Formget" && password == "formget#123"){
-alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
-return false;
-}
-else{
-attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
-}
-}
+ $( ".first" ).click(function() {
+    $(this).animate({width: 0}, {duration: 1000});
+    $(this).hide();
+    $(".second").show();
+    $(".second").animate({width: 400}, {duration: 1000});
+});
+
+$( ".second" ).click(function() {
+    $(this).animate({width: 0}, {duration: 1000});
+    $(this).hide();
+    $(".first").show();
+    $(".first").animate({width: 100}, {duration: 1000});
+});
+
+
+});
+         
+
+ScrollReveal().reveal(".slide-right", {
+  duration: 3000,
+  origin: "left",
+  distance: "300px",
+  easing: "ease-in-out"
+});
+
+ScrollReveal().reveal(".slide-up", {
+  duration: 2000,
+  origin: "bottom",
+  distance: "100px",
+  easing: "cubic-bezier(.37,.01,.74,1)",
+  opacity: 0.3,
+  scale: 0.5
+});
    
 
       

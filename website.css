@@ -1,8 +1,8 @@
 
 .navbar{
 
-    color: black;
-    background-color:rgb(255,255,255);
+    color: white;
+    background-color:rgb(41,141,141);
 }
 
 .offcanvas{
@@ -205,13 +205,13 @@
 }
 
 .nav-link{
-    color: black;
+    color: white;
 }
 .nav-link-active{
-    color: black;
+    color: white;
 }
 .navbar-brand{
-    color: black;
+    color: white;
 }
 .body{
     background-color: grey;}

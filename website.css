@@ -140,7 +140,7 @@
     padding: 0;
     margin: 0;
     background-color:whitesmoke;
-    background-image: url(./landing\ master.jpg);
+    background-image: rgb(255,255,255);
     background-position: center;
     
 }
@@ -210,7 +210,7 @@
 .nav-link-active{
     color: white;
 }
-.navbar-brand{
+.navbar-brandd{
     background-color:rgb(255,255,255);
     color: white;
 }

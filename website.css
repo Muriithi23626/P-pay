@@ -19,8 +19,14 @@
 .ul li a{
     text-decoration: none;
 }
-.offcanvas{
-    width: 50px;
+.dealer{
+     animation: blinker 1s linear infinite;
+      }
+      
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
 }
  
 

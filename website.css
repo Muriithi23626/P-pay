@@ -218,11 +218,6 @@
 	color: black;
 	text-decoration: none;
 }
-.nav-link {
-  display: inline-block;
-  position: relative;
-  color: black;
-}
 
 .nav-link::after {
   content: '';

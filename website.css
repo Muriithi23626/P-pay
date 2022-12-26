@@ -225,7 +225,7 @@
   transform: scaleX(0);
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #800000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }

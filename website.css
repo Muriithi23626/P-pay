@@ -212,10 +212,13 @@
 }
 
 .nav-link{
-    color: white;
+    color: black;
 }
 .nav-link-active{
-    color: white;
+    color: black;
+}
+.link-item{
+    color: black;
 }
 .navbar-brandd{
  color:white;

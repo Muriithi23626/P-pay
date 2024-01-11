@@ -23,19 +23,19 @@
 .ul li a{
     text-decoration: none;
 }
-.dealer{
+dealer{
      animation: blinker 1s linear infinite;
       }
       
       @keyframes blinker {
-        50% {
+        % {
           opacity: 0;
         }
 }
  
 
 
- .learn{
+ learn{
         animation: blink-animation 1s steps(5, start) infinite;
         -webkit-animation: blink-animation 1s steps(5, start) infinite;
       }

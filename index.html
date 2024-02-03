@@ -311,7 +311,7 @@
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-globe mx-auto mb-4"  style="border-color: rgba(173, 41, 8, 0.5) !important; color: #9e2912"></i>
                         <h5 class="mb-2">P-PAY VIRTUAL ACCOUNT</h5>
-                        <p class="m-0">P-PAY VIRTUAL ACCOUNT is an electronic virtual account that is 
+                        <p class="m-0" style=" padding: 1px; text-align: justify;">P-PAY VIRTUAL ACCOUNT is an electronic virtual account that is 
                             mapped to the P-payledger bank account that P-pay uses for B2C transactions. 
                             The amount credited in the account by the lender is reflective electronically 
                             in the P-pay wallet but can only be circulated inside the lenders payment gateways.</p>
@@ -321,7 +321,7 @@
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"  style="border-color: rgba(173, 41, 8, 0.5) !important; color: #9e2912"></i>
                         <h5 class="mb-2">P-PAY API</h5>
-                        <p class="m-0">P-PAY api Enables the Lenders to request for access token and allow P-pay
+                        <p class="m-0" class="m-0" style=" padding: 1px; text-align: justify;">P-PAY api Enables the Lenders to request for access token and allow P-pay
                              to pull the data of the defaulters/struggling customers
                              who subscribe to the service for P-pay to calculate and inform the subscribed customer 
                              of his P-pay limit Immediately. Check the developers docs for more.</p>
@@ -331,7 +331,7 @@
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-hotel mx-auto mb-4" style="border-color: rgba(173, 41, 8, 0.5) !important; color: #9e2912"></i>
                         <h5 class="mb-2">P-PAY INSTANT RECONCILIATION</h5>
-                        <p class="m-0">Imediately a secure end to end encripted transaction is made,the Customer recieves the balance of the 
+                        <p class="m-0" class="m-0" style=" padding: 1px; text-align: justify;">Imediately a secure end to end encripted transaction is made,the Customer recieves the balance of the 
                             Funds(after deduction). A new loan account is created immediately
                              and mapped to the account that recieved funds for future payment next month.</p>
                     </div>
@@ -340,7 +340,7 @@
                     <div class="service-item bg-white text-center mb-2 py-5 px-4">
                         <i class="fa fa-2x fa-credit-card mx-auto mb-4" style="border-color: rgba(173, 41, 8, 0.5) !important; color: #9e2912"></i>
                         <h5 class="mb-2">P-PAY TRANSACTION CHARGES</h5>
-                        <p class="m-0">P-PAY operates on transaction based model depending with the amount offset-on behalf of 
+                        <p class="m-0" class="m-0" style=" padding: 1px; text-align: justify;">P-PAY operates on transaction based model depending with the amount offset-on behalf of 
                             the defaulter/struggling customer The charges are customer friendly and lenders 
                             incur nothing as the fees are charged to the client for using the service</p>
                     </div>
@@ -377,17 +377,17 @@
                             <h1 class="text-white m-0">Sign Up Now</h1>
                         </div>
                         <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
+                            <form onsubmit="sendEmail1(); reset(); return false;" >
                                 <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Your name"
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your name"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Your email"
+                                    <input type="email" class="form-control p-4" id="name" placeholder="Your email"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
+                                    <select class="custom-select px-4" id="message" style="height: 47px;">
                                         <option selected>Select a Lender</option>
                                         <option value="1">Institution 1</option>
                                         <option value="2">Institution 2</option>
@@ -844,10 +844,30 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
+    <script src="mail/contact.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "websiteform@p-payglobal.com",
+                Password : "B49AF35051FDED7CA44B845FA2CC56894F93",
+                To : "richard.mucene@p-payglobal.com",
+                From : "websiteform@p-payglobal.com",
+                Subject : document.getElementById("name"). value,
+                Body : (document.getElementById("message"). value + " " +
+                        document.getElementById("email").value
+                        )
+            }).then(
+             message => alert("Email successfully sent to P-Pay Global Services. You will be contacted soon.")
+            );
+        }
+    </script>
+   
 
     <!-- Custom Javascript -->
     <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
